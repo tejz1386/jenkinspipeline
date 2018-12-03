@@ -22,7 +22,7 @@ stages{
             }
         }
 
-        stage ('Deployments'){
+        stage ('Deployment'){
                 stage ('Deploy to Staging'){
                     steps {
                         sh "scp  **/target/*.war test_user@${params.tomcat_dev}:/var/lib/tomcat/webapps"
