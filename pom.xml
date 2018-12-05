@@ -161,9 +161,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugin-prefix>
-       <defaultGoal>install</defaultGoal>
-    </plugin-prefix>
   </build>
 
   <dependencyManagement>
