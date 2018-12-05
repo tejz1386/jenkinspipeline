@@ -30,6 +30,7 @@
   </distributionManagement>
 
   <build>
+    <defaultGoal>install</defaultGoal>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
